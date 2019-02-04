@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Morty Mind Blowers by Shai L.</title>
+  <link rel="stylesheet" href="css/game.css" />
+  <link href='https://fonts.googleapis.com/css?family=McLaren' rel='stylesheet'>
+  <link rel="icon" href="img/shai/rick.ico" type="image/gif" sizes="16x16">
+  
+</head>
+
+<body class="body">
+    <div class="header">
+      <table width="100%">
+        <td width="15%">
+          <img src="img/ram/ramlogo.png" class="logo" >
+          <h1>Mind Blowers</h1>
+        </td>
+        <td width="10%" >
+            <button type="button"  onclick=loserGif() ondblclick=flipAll()>Show cards</button>  
+          </td>
+          <td width="5%">
+            <button type="button"  onclick=shuffle()>Shuffle</button>
+          </td>
+          <td width="10%">
+            <button type="button" onclick=changeUser();rick()>Change user</button>
+          </td>
+          <td width="5%">
+            <button type="button" onclick="window.location.href='index.html'" target="_blank">About</button>
+          </td>
+                <td width="10%">
+                  <button type="button" class="resetButton" id='reset' onclick=resetGame()>Play again</button>
+                </td>
+          <td width="30%">
+            <h4 class="player" id="player">Player:</h4>
+          </td>
+          <td width="30%">
+            <h4 class="bestTime" id="time">Best time:</h4>
+            <h4 class="bestPlayer" id="bestPlayer">Player:</h4>
+          </td>
+      </table>
+    </div>
+
+<div class="board" id="mainBoard" >
+  <div class="card" data-card="1" onclick="cardClicked(this)">
+    <img src="img/ram/1.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="7" onclick="cardClicked(this)">
+    <img src="img/ram/7.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="2" onclick="cardClicked(this)">
+    <img src="img/ram/2.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="5" onclick="cardClicked(this)">
+    <img src="img/ram/5.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="8" onclick="cardClicked(this)">
+    <img src="img/ram/8.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="1" onclick="cardClicked(this)">
+    <img src="img/ram/1.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="8" onclick="cardClicked(this)">
+      <img src="img/ram/8.png">
+      <img class="back" src="img/ram/back.png">
+    </div>
+  <div class="card" data-card="6" onclick="cardClicked(this)">
+    <img src="img/ram/6.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="6" onclick="cardClicked(this)">
+    <img src="img/ram/6.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="4" onclick="cardClicked(this)">
+    <img src="img/ram/4.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="3" onclick="cardClicked(this)">
+    <img src="img/ram/3.png">
+    <img class="back" src="img/ram/back.png">
+  </div>
+  <div class="card" data-card="2" onclick="cardClicked(this)">
+      <img src="img/ram/2.png">
+      <img class="back" src="img/ram/back.png">
+    </div>
+    <div class="card" data-card="4" onclick="cardClicked(this)">
+      <img src="img/ram/4.png">
+      <img class="back" src="img/ram/back.png">
+    </div>
+    <div class="card" data-card="7" onclick="cardClicked(this)">
+      <img src="img/ram/7.png">
+      <img class="back" src="img/ram/back.png">
+    </div>
+    <div class="card" data-card="5" onclick="cardClicked(this)">
+      <img src="img/ram/5.png">
+      <img class="back" src="img/ram/back.png">
+    </div>
+    <div class="card" data-card="3" onclick="cardClicked(this)">
+      <img src="img/ram/3.png">
+      <img class="back" src="img/ram/back.png">
+    </div>
+
+</div>
+
+<button class="start" id="start" onclick="getUserName();rick();showMe();">Start Game</button>
+<footer class="footer" id='start'>Created by <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shail@wix.com" target="_blank">Shai L.</a></footer>
+<img src="img/ram/ilike.gif" id="iLike" class="gif"> 
+<img src="img/ram/disqualified.gif" id="disqualified" class="gif"> 
+<img src="img/ram/show.gif"  id="show"  class="gif"> 
+<img src="img/ram/x.gif"  class="gif"> 
+<script src="js/game.js"></script>
+</body>
+
+</html>

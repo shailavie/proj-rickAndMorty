@@ -1,0 +1,144 @@
+
+h2 {
+    color: dimgray;
+    font-family: 'Actor';
+    font-size: 42px;
+    margin-bottom: -10px;
+   
+}
+
+h3 {
+    color: darkslategray;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:19px;
+ 
+    font-weight: bold;
+}
+
+h4 {
+    color: rgb(136, 136, 136);
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+p {
+    color: darkslategray;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:16px;
+    line-height: 25px;
+}
+
+td {
+    color: darkslategray;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:16px;
+    line-height: 25px;
+}
+
+.tr {
+    color: darkslategray;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:16px;
+    line-height: 25px;
+    width: 40px;
+}
+
+ul {
+    color: darkslategray;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:16px;
+}
+
+img {
+    border-radius: 80%;
+    margin-right: 50px;
+    border: 3px solid white;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.profilePic img {
+    float: left;
+}
+
+.info {
+    padding-bottom: 10px;  
+}
+
+.mailto a {
+    color:rgb(66, 65, 65);
+    text-decoration: none;
+}
+
+.workplace{
+    font-size:12px;
+}
+
+.jobDesc{
+    font-size: 14px;
+}
+
+body{
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ketList li {
+    color: darkslategray;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:16px;
+    line-height: 25px;
+    padding-right: 50px;
+}
+
+.ket ul {
+    padding-right: 40px;
+}
+
+.socialIcon img {
+    width: 40px;
+    height: 40px;
+}
+
+
+button {
+    background-color: rgb(150, 17, 150);
+    border-radius: 3%;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color:rgb(180, 70, 180);
+    color: white;
+}
+
+
+.footer button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+div.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
